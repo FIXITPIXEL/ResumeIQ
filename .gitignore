@@ -1,0 +1,60 @@
+# ── Security & Environment Variables (NEVER commit secrets) ─────────────────────
+.env
+.env.*
+!.env.example
+
+# ── Personal / Test Resumes (Prevent accidental personal data leak) ────────────
+*.pdf
+Sripal_Jena_Resume.pdf
+
+# ── Python & Bytecode ──────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ── Virtual Environments ───────────────────────────────────────────────────────
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ── Testing & Coverage ─────────────────────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# ── Caches & Runtime Artifacts ─────────────────────────────────────────────────
+.cache/
+logs/*.log
+logs/*
+!logs/.gitkeep
+snapshots/*.json
+!snapshots/.gitkeep
+
+# ── IDEs & Editors ─────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
